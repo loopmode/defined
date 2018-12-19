@@ -1,0 +1,14 @@
+{
+  "name": "@loopmode/defined",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files",
+    "lint": "eslint src",
+    "docs": "esdoc"
+  },
+  "devDependencies": {
+    "@loopmode/babel7-base": "^1.0.1"
+  }
+}
