@@ -663,7 +663,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"@loopmode/defined\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"license\": \"MIT\",\n  \"scripts\": {\n    \"build\": \"babel src --out-dir lib --copy-files\",\n    \"lint\": \"eslint src\",\n    \"docs\": \"esdoc\"\n  },\n  \"devDependencies\": {\n    \"@loopmode/babel7-base\": \"^1.0.1\"\n  }\n}\n",
+    "content": "{\n  \"name\": \"@loopmode/defined\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"license\": \"MIT\",\n  \"scripts\": {\n    \"build\": \"babel src --out-dir lib --copy-files\",\n    \"lint\": \"eslint src\",\n    \"docs\": \"esdoc\"\n  },\n  \"author\": \"Jovica Aleksic <jovica.aleksic@loopmode.de>\",\n  \"homepage\": \"https://loopmode.github.io/defined/\",\n  \"repository\": {\n    \"type\" : \"git\",\n    \"url\" : \"https://github.com/loopmode/defined\"\n  },\n  \"bugs\": {\n    \"url\" : \"https://github.com/loopmode/defined/issues\",\n    \"email\" : \"jovica.aleksic@loopmode.de\"\n  },\n  \"keywords\": [\n    \"object\",\n    \"utility\",\n    \"defined\",\n    \"undefined\",\n    \"null\",\n    \"omit\",\n    \"sanitize\"\n  ],\n  \"devDependencies\": {\n    \"@loopmode/babel7-base\": \"^1.0.1\"\n  }\n}\n",
     "longname": "D:\\Projects\\npm\\loopmode@npm\\defined\\package.json",
     "name": "package.json",
     "static": true,
