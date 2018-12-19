@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "defined/src/getdefined.js~getdefined",
+    "@loopmode/defined/src/getdefined.js~getdefined",
     "function/index.html#static-function-getDefined",
-    "<span>getDefined</span> <span class=\"search-result-import-path\">defined/src/getDefined.js</span>",
+    "<span>getDefined</span> <span class=\"search-result-import-path\">@loopmode/defined/src/getDefined.js</span>",
     "function"
   ],
   [
