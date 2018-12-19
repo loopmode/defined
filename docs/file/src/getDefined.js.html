@@ -38,10 +38,7 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
  * Takes an object and returns a new object that contains only the &quot;defined&quot; values.
  *
- * Values are dropped if they are included in the `drop` array which defaults to `[undefined]`.
- * For example, you may pass `{ drop: [undefined, null] }` to omit null-values as well.
- *
- * In addition to the `drop` check, properties are dropped if their value is an empty object (unless the `{ keepObjects: true }` option is used).
+ * Values are dropped if they either are included in the `drop` array, or they are an empty object and the `keepObjects` flag is not set.
  *
  * @param {Object} target - An object with properties that shall be omitted if empty
  * @param {Object} [options] - Optional settings

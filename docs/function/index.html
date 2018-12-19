@@ -85,17 +85,15 @@
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/getDefined.js.html#lineNumber15">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/getDefined.js.html#lineNumber12">source</a></span></span>
     </span>
   </h3>
 
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import getDefined from &apos;<span><a href="file/src/getDefined.js.html#lineNumber15">@loopmode/defined/src/getDefined.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import getDefined from &apos;<span><a href="file/src/getDefined.js.html#lineNumber12">@loopmode/defined/src/getDefined.js</a></span>&apos;</code></pre></div>
   
   
   <div data-ice="description"><p>Takes an object and returns a new object that contains only the &quot;defined&quot; values.</p>
-<p>Values are dropped if they are included in the <code>drop</code> array which defaults to <code>[undefined]</code>.
-For example, you may pass <code>{ drop: [undefined, null] }</code> to omit null-values as well.</p>
-<p>In addition to the <code>drop</code> check, properties are dropped if their value is an empty object (unless the <code>{ keepObjects: true }</code> option is used).</p>
+<p>Values are dropped if they either are included in the <code>drop</code> array, or they are an empty object and the <code>keepObjects</code> flag is not set.</p>
 </div>
 
   
