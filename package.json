@@ -8,6 +8,25 @@
     "lint": "eslint src",
     "docs": "esdoc"
   },
+  "author": "Jovica Aleksic <jovica.aleksic@loopmode.de>",
+  "homepage": "https://loopmode.github.io/defined/",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/loopmode/defined"
+  },
+  "bugs": {
+    "url" : "https://github.com/loopmode/defined/issues",
+    "email" : "jovica.aleksic@loopmode.de"
+  },
+  "keywords": [
+    "object",
+    "utility",
+    "defined",
+    "undefined",
+    "null",
+    "omit",
+    "sanitize"
+  ],
   "devDependencies": {
     "@loopmode/babel7-base": "^1.0.1"
   }
